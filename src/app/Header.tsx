@@ -9,7 +9,7 @@ export default function Header() {
           <h1 className="sr-only">Subs and Wubs</h1>
           <Image
             alt="Subs and Wubs logo"
-            src="/assets/logo.webp"
+            src="/assets/logo.gif"
             width={100}
             height={100}
             draggable={false}
