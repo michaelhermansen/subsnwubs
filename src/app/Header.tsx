@@ -5,12 +5,13 @@ export default function Header() {
   return (
     <header>
       <Container>
-        <div className="py-4 mb-4 flex justify-center">
+        <div className="py-6 mb-4 flex justify-center">
+          <h1 className="sr-only">Subs and Wubs</h1>
           <Image
-            alt="logo"
+            alt="Subs and Wubs logo"
             src="/assets/logo.webp"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
             draggable={false}
           />
         </div>

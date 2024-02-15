@@ -4,6 +4,7 @@ import "./globals.css";
 import clsx from "clsx";
 import Header from "./Header";
 import Head from "next/head";
+import Footer from "./Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -41,9 +42,15 @@ export default function RootLayout({
         <meta name="theme-color" content="#000000" />
       </Head>
 
-      <body className={clsx(inter.className, "bg-black text-white")}>
+      <body
+        className={clsx(
+          inter.className,
+          "bg-black text-white flex flex-col h-screen justify-between"
+        )}
+      >
         <Header />
-        <main>{children}</main>
+        <main className="mb-auto">{children}</main>
+        <Footer />
       </body>
     </html>
   );

@@ -1,5 +1,4 @@
 import Container from "@/lib/ui/Container";
-import ExternalLink from "@/lib/ui/icons/ExternalLink";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -18,9 +17,9 @@ export default function Home() {
           width={1024}
           height={536}
         />
-        <div className="group-hover:underline pt-4 pb-2 text-balance">
+        <h2 className="group-hover:underline pt-4 pb-2 text-balance text-xl">
           Subs and Wubs &mdash; Episode 10 &#8599;
-        </div>
+        </h2>
       </Link>
     </Container>
   );
