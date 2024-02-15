@@ -7,7 +7,6 @@ export default function Home() {
     <Container>
       <Link
         href="https://www.youtube.com/playlist?list=PLkZoTZDrAE2kSvFOS98ZAxI9giGLg5FXj"
-        target="blank"
         className="group block"
       >
         <Image
