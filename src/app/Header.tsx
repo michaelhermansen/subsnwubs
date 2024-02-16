@@ -8,8 +8,9 @@ export default function Header() {
         <div className="py-6 mb-4 flex justify-center">
           <h1 className="sr-only">Subs and Wubs</h1>
           <Image
+            priority
             alt="Subs and Wubs logo"
-            src="/assets/logo.gif"
+            src="/assets/logo_optimized.gif"
             width={100}
             height={100}
             draggable={false}

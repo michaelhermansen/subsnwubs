@@ -10,6 +10,7 @@ export default function Home() {
         className="group block"
       >
         <Image
+          priority
           className="block transition-all [@media(pointer:fine)]:saturate-0 group-hover:saturate-100"
           alt="Subs and Wubs episode 10"
           src="/assets/ep_10.png"
