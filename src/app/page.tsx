@@ -13,7 +13,7 @@ export default function Home() {
           priority
           className="block transition-all [@media(pointer:fine)]:saturate-0 group-hover:saturate-100"
           alt="Subs and Wubs episode 10"
-          src="/assets/ep_10.png"
+          src="/assets/episode_10.webp"
           width={1024}
           height={536}
         />
