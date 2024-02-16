@@ -18,7 +18,7 @@ export default function Home() {
           height={536}
         />
         <h2 className="group-hover:underline pt-4 pb-2 text-balance text-xl">
-          Subs and Wubs &mdash; Episode 10 &#8599;
+          Subs and Wubs &mdash; Episode 10 🔗
         </h2>
       </Link>
     </Container>
