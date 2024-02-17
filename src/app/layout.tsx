@@ -9,7 +9,7 @@ import Footer from "./Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Subs and Wubs",
+  title: "SUBS AND WUBS",
 };
 
 export default function RootLayout({

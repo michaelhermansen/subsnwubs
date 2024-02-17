@@ -25,7 +25,7 @@ export default function Footer() {
     <footer className="py-12 mt-48 border-t border-white/0">
       <Container>
         <div className="flex flex-wrap gap-8 justify-between">
-          <p>Subs and Wubs</p>
+          <p>SUBS AND WUBS</p>
           <ul className="flex items-center flex-wrap gap-x-6 gap-y-4">
             {links.map((link) => (
               <li key={link.url}>
