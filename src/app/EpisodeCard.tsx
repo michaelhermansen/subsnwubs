@@ -24,7 +24,7 @@ export default function EpisodeCard(props: {
             "saturate-100": inView,
           }
         )}
-        alt="Subs and Wubs episode 10"
+        alt=""
         src={props.episode.imageSrc}
         width={1024}
         height={536}
