@@ -19,14 +19,14 @@ export default function EventCard(props: {
         height={536}
       />
       <div>
-        <div className="flex items-center flex-wrap gap-2 justify-between pt-4 opacity-75 group-hover:opacity-100">
+        <div className="flex items-center flex-wrap gap-1 justify-between pt-4 opacity-75 transition-opacity group-hover:opacity-100">
           <p>
-            🗓️ {props.date}, {props.time}
+            {props.date}, {props.time}
           </p>
           <p>📍 {props.address}</p>
         </div>
-        <h2 className="group-hover:underline pt-4 pb-2 text-balance text-xl sm:text-2xl">
-          {props.title}
+        <h2 className="group-hover:underline pt-3 pb-2 text-balance text-xl sm:text-2xl">
+          {props.title} 🔗
         </h2>
       </div>
     </Link>

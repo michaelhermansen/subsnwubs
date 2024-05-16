@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <Container>
-        <div className="py-6 mb-4 flex justify-center">
+        <div className="py-10 mb-4 flex justify-center">
           <h1 className="sr-only">Subs and Wubs</h1>
           <Image
             priority
