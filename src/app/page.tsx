@@ -5,9 +5,9 @@ import EventCard from "./EventCard";
 import { BsArrowDown } from "react-icons/bs";
 import TwitchEmbed from "./TwitchEmbed";
 
-export const revalidate = 60;
+export const revalidate = 60 * 5;
 
-const channelName = "sandoras";
+const channelName = "subsandwubs";
 const descriptionRegex = /"description":\s*"(.*?)"/;
 
 export default async function Home() {
@@ -27,10 +27,10 @@ export default async function Home() {
             <div className="text-lg leading-normal mt-3">
               <div className="inline-block animate-pulse size-3 bg-red-600 rounded-full" />
               &ensp;
-              <p className="inline">
+              <h2 className="inline">
                 <span className="uppercase font-semibold">Live: </span>
                 <span>{description || "Subs and Wubs"}</span>
-              </p>
+              </h2>
             </div>
           </div>
         </div>
