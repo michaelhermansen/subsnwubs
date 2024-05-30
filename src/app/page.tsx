@@ -5,6 +5,8 @@ import EventCard from "./EventCard";
 import { BsArrowDown } from "react-icons/bs";
 import TwitchEmbed from "./TwitchEmbed";
 
+export const revalidate = 60;
+
 const channelName = "sandoras";
 const descriptionRegex = /"description":\s*"(.*?)"/;
 
