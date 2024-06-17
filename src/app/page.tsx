@@ -36,7 +36,7 @@ export default async function Home() {
         </div>
       )}
 
-      <div className="mb-12 pb-10 border-b border-white/20">
+      {/* <div className="mb-12 pb-10 border-b border-white/20">
         <h2 className="text-lg pb-4">Upcoming event</h2>
         <EventCard
           title="Subs and Wubs: Musikkfest 2024"
@@ -45,7 +45,7 @@ export default async function Home() {
           time="kl. 13:00"
           address="Kampen park"
         />
-      </div>
+      </div> */}
 
       <div className="flex items-center pb-12 gap-2">
         <h2 className="text-lg">Archive</h2>
