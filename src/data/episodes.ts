@@ -71,9 +71,16 @@ export const episodes: Episode[] = [
   },
   {
     id: 11,
-    title: "Subs and Wubs — Episode 10",
+    title: "SUBS and WUBS — Episode 10",
     imageSrc: "/assets/episodes/episode_10.webp",
     externalUrl:
       "https://www.youtube.com/playlist?list=PLkZoTZDrAE2kSvFOS98ZAxI9giGLg5FXj",
+  },
+  {
+    id: 12,
+    title: "SUBS AND WUBS — Musikkfest Oslo 2024",
+    imageSrc: "/assets/events/subs_musikkfest_24.png",
+    externalUrl:
+      "https://www.youtube.com/playlist?list=PLkZoTZDrAE2kGB6tpae2UfyE_6X1BFaIU",
   },
 ];
