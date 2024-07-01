@@ -71,7 +71,7 @@ export const episodes: Episode[] = [
   },
   {
     id: 11,
-    title: "SUBS and WUBS — Episode 10",
+    title: "SUBS AND WUBS — Episode 10",
     imageSrc: "/assets/episodes/episode_10.webp",
     externalUrl:
       "https://www.youtube.com/playlist?list=PLkZoTZDrAE2kSvFOS98ZAxI9giGLg5FXj",
