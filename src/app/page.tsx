@@ -1,7 +1,6 @@
 import { episodes } from "@/data/episodes";
 import Container from "@/lib/ui/Container";
 import EpisodeCard from "./EpisodeCard";
-import EventCard from "./EventCard";
 import { BsArrowDown } from "react-icons/bs";
 import TwitchEmbed from "./TwitchEmbed";
 
