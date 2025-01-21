@@ -88,6 +88,6 @@ export const episodes: Episode[] = [
     title: "Subs and Wubs — Støttegig for Hausmania",
     imageSrc: "/assets/events/haus21des.png",
     externalUrl:
-      "https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2Fplaylist%3Flist%3DPLkZoTZDrAE2lrJKXGC8QMqE066N7z8TW4%26si%3DG5D2FhXSp8vHJ575%26fbclid%3DIwZXh0bgNhZW0CMTAAAR2COEx00Y2bCCnyuJvwlLmQufEnoyzLrkIiDmO62Rp5-cvGFmjKgtBXhYU_aem_tqeg97HpJUNcLLehKmelyQ&h=AT2NcG9oZj7BxPwI0Ca1vli035QpMKQO2HzkL5xLKggDtJCpdjwDs1Nb-q6BcqBthflfoan10gHl9x0Pq0eYbCcNy31a8NiwnfPlPfE-GbbxDfSTjn2JtIO0TE4ayIA6onA",
+      "https://www.youtube.com/playlist?list=PLkZoTZDrAE2lrJKXGC8QMqE066N7z8TW4",
   },
 ];
