@@ -83,4 +83,11 @@ export const episodes: Episode[] = [
     externalUrl:
       "https://www.youtube.com/playlist?list=PLkZoTZDrAE2kGB6tpae2UfyE_6X1BFaIU",
   },
+  {
+    id: 13,
+    title: "Subs and Wubs — Støttegig for Hausmania",
+    imageSrc: "/assets/events/haus21des.png",
+    externalUrl:
+      "https://www.youtube.com/playlist?list=PLkZoTZDrAE2lrJKXGC8QMqE066N7z8TW4",
+  },
 ];
