@@ -3,6 +3,7 @@ import Container from "@/lib/ui/Container";
 import EpisodeCard from "./EpisodeCard";
 import { BsArrowDown } from "react-icons/bs";
 import TwitchEmbed from "./TwitchEmbed";
+import EventCard from "./EventCard";
 
 export const revalidate = 60 * 5;
 
@@ -35,16 +36,17 @@ export default async function Home() {
         </div>
       )}
 
-      {/* <div className="mb-12 pb-10 border-b border-white/20">
+      <div className="mb-12 pb-10 border-b border-white/20">
         <h2 className="text-lg pb-4">Upcoming event</h2>
         <EventCard
-          title="Subs and Wubs: Musikkfest 2024"
-          eventUrl="https://www.facebook.com/events/7266751620119593"
-          date="Lørdag 1. juni"
-          time="kl. 13:00"
+          title="Subs and Wubs: Musikkfest 2025"
+          eventUrl="https://www.facebook.com/events/984986320490452"
+          date="Lørdag 7. juni"
+          time="kl. 15:00"
           address="Kampen park"
+          imageSrc="/assets/events/subs_musikkfest_25.png"
         />
-      </div> */}
+      </div>
 
       <div className="flex items-center pb-12 gap-2">
         <h2 className="text-lg">Archive</h2>
