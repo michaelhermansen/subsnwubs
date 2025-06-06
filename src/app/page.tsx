@@ -5,7 +5,7 @@ import { BsArrowDown } from "react-icons/bs";
 import TwitchEmbed from "./TwitchEmbed";
 import EventCard from "./EventCard";
 
-export const revalidate = 60 * 5;
+export const revalidate = 300;
 
 const channelName = "subsandwubs";
 const descriptionRegex = /"description":\s*"(.*?)"/;
