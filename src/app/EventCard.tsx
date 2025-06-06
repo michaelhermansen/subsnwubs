@@ -7,6 +7,7 @@ export default function EventCard(props: {
   time: string;
   address: string;
   eventUrl: string;
+  imageSrc: string;
 }) {
   return (
     <Link href={props.eventUrl} className="group block">
@@ -14,7 +15,7 @@ export default function EventCard(props: {
         priority={true}
         className="block transition-all duration-300 group-hover:saturate-100"
         alt=""
-        src="/assets/events/subs_musikkfest_24.png"
+        src={props.imageSrc}
         width={1024}
         height={536}
       />
