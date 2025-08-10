@@ -3,6 +3,7 @@ export interface Episode {
   title: string;
   imageSrc: string;
   externalUrl: string;
+  altTxt?: string; 
 }
 
 export const episodes: Episode[] = [
@@ -89,5 +90,6 @@ export const episodes: Episode[] = [
     imageSrc: "/assets/events/haus21des.png",
     externalUrl:
       "https://www.youtube.com/playlist?list=PLkZoTZDrAE2lrJKXGC8QMqE066N7z8TW4",
-  },
+    altTxt: "Støttegig for Hausmania",
+    },
 ];
