@@ -90,4 +90,11 @@ export const episodes: Episode[] = [
     externalUrl:
       "https://www.youtube.com/playlist?list=PLkZoTZDrAE2lrJKXGC8QMqE066N7z8TW4",
   },
+  {
+    id: 14,
+    title: "Subs and Wubs — Musikkfest 2025",
+    imageSrc: "/assets/events/subs_musikkfest_25_new.png",
+    externalUrl:
+      "https://youtube.com/playlist?list=PLkZoTZDrAE2mU5qWbfW238d-q5XsbB6e-&si=1yxP7n5caR8nM6mx",
+  },
 ];
