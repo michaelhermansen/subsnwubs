@@ -48,18 +48,6 @@ export default async function Home() {
         />
       </div> */}
 
-      {/* <div className="mb-12 pb-10 border-b border-white/20">
-        <h2 className="text-lg pb-4">Upcoming event</h2>
-        <EventCard
-          title="Subs and Wubs: Musikkfest 2025"
-          eventUrl="https://www.facebook.com/events/984986320490452"
-          date="Lørdag 7. juni"
-          time="kl. 15:00"
-          address="Kampen park"
-          imageSrc="/assets/events/subs_musikkfest_25.png"
-        />
-      </div> */}
-
       <div className="flex items-center pb-12 gap-2">
         <h2 className="text-lg">Archive</h2>
         <div className="flex items-center">
