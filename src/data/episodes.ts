@@ -97,4 +97,11 @@ export const episodes: Episode[] = [
     externalUrl:
       "https://youtube.com/playlist?list=PLkZoTZDrAE2mU5qWbfW238d-q5XsbB6e-&si=1yxP7n5caR8nM6mx",
   },
+  {
+    id: 15,
+    title: "Subs and Wubs — Episode 11",
+    imageSrc: "/assets/episodes/episode_11.jpg",
+    externalUrl:
+      "https://www.youtube.com/playlist?list=PLkZoTZDrAE2kfHbUGC_GSkVnKmtQivk1B",
+  },
 ];
