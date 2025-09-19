@@ -36,7 +36,7 @@ export default async function Home() {
         </div>
       )}
 
-      { <div className="mb-12 pb-10 border-b border-white/20">
+      {/* <div className="mb-12 pb-10 border-b border-white/20">
         <h2 className="text-lg pb-4">Upcoming event</h2>
         <EventCard
           title="Subs and Wubs: Episode 11"
@@ -46,7 +46,7 @@ export default async function Home() {
           address="BOKSEN"
           imageSrc="/assets/episodes/episode_11.jpg"
         />
-      </div> }
+      </div> */}
 
       {/* <div className="mb-12 pb-10 border-b border-white/20">
         <h2 className="text-lg pb-4">Upcoming event</h2>
