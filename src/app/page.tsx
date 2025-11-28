@@ -36,17 +36,19 @@ export default async function Home() {
         </div>
       )}
 
-      {/* <div className="mb-12 pb-10 border-b border-white/20">
-        <h2 className="text-lg pb-4">Upcoming event</h2>
-        <EventCard
-          title="Subs and Wubs: Episode 11"
-          eventUrl="https://www.facebook.com/events/1726801488037257"
-          date="Saturday 30. august"
-          time="kl. 23:00"
-          address="BOKSEN"
-          imageSrc="/assets/episodes/episode_11.jpg"
-        />
-      </div> */}
+      {
+        <div className="mb-12 pb-10 border-b border-white/20">
+          <h2 className="text-lg pb-4">Upcoming event</h2>
+          <EventCard
+            title="Subs and Wubs: Episode 12"
+            eventUrl="https://www.facebook.com/events/1489615849011865"
+            date="Saturday 20. december"
+            time="kl. 23:00"
+            address="BOKSEN"
+            imageSrc="/assets/episodes/episode_12.png"
+          />
+        </div>
+      }
 
       <div className="flex items-center pb-12 gap-2">
         <h2 className="text-lg">Archive</h2>
